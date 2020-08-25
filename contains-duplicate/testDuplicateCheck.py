@@ -1,8 +1,8 @@
 from duplicateCheck import Solution
 
-def testCorrectOutput(numList, expectedOutput):
-	out = Solution().containsDuplicate(numList)
-	print(f'Input - {numList}')
+def testCorrectOutput(nums, expectedOutput):
+	out = Solution().containsDuplicate(nums)
+	print(f'Input - {nums}')
 	print(f'Output - ' + ('true' if out else 'false'))
 	print(f'Expected - ' + ('true' if expectedOutput else 'false'))
 	print()
