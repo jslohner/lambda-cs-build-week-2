@@ -9,29 +9,29 @@
 * Example 1:
 ```
 Input: s = '()'
-Output: true
+Output: True
 ```
 
 * Example 2:
 ```
 Input: s = '()[]{}'
-Output: true
+Output: True
 ```
 
 * Example 3:
 ```
 Input: s = '(]'
-Output: false
+Output: False
 ```
 
 * Example 4:
 ```
 Input: s = '([)]'
-Output: false
+Output: False
 ```
 
 * Example 5:
 ```
 Input: s = '{[]}'
-Output: true
+Output: True
 ```
